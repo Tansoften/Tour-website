@@ -1,0 +1,106 @@
+
+    *, *::before, *::after{
+        box-sizing: border-box;
+    }
+    a:is(:link, :active, :visited).active {
+        background-color: #3E6551;
+        border-radius: 0.2rem;
+        color: white;
+        
+    }
+    body{
+        
+        font-family: 'Poppins', sans-serif;
+        /* background-color: #f5a42a; */
+        position: relative;
+        display: block;
+        color: #3E6551;
+        background-color:#F9FBFC; 
+        font-weight: bold;
+
+    }
+    .bg-holder {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+    will-change: transform, opacity, filter;
+    backface-visibility: hidden;
+    z-index: -1;
+    background-position: center center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+    .font{
+        font-weight: 700;
+        font-size: 3rem;
+        margin-bottom: 5px;
+        position: relative;
+    }
+    .h-png{
+        width: 105%;
+        margin-left: -4rem;
+
+    }
+    .padding-transition{
+    padding: 1.25rem !important;
+    padding-top: 1.25rem !important;
+    padding-right: 1.25rem !important;
+    padding-bottom: 1.25rem !important;
+    padding-left: 1.25rem !important;
+    }
+    .backdrop {
+    /* -webkit-backdrop-filter: blur(4px); */
+    backdrop-filter: blur(4px);
+    }
+
+.rounded-3 {
+    border-radius: 0.8rem !important;
+    background-color: #F9FBFC;
+}
+
+.rounded-4 {
+    border-radius: 0.8rem !important;
+    box-shadow: 0 0.25rem 0.625rem rgb(0 0 0 / 20%);
+
+}
+
+.rounded-3:hover{
+    background-color: white;
+    transition:  all .3s  ease-in-out;
+    box-shadow: 0 0.25rem 0.625rem rgb(0 0 0 / 20%);
+}
+/* .shadow-hover {
+  
+    transition: all 0.2s ease-in-out;
+    box-shadow: none;
+} */
+.rows{
+    width:100%;
+}
+
+.icon-item {
+    border-radius: 50%;
+    display: flex;
+    -webkit-box-pack: center;
+    
+    justify-content: center;
+    -webkit-box-align: center;
+   
+    align-items: center;
+    color: #080809;
+    background-color: #EEF1F2;
+    transition: all 0.2s ease-in-out;
+    height: 2.5rem;
+    width: 2.5rem;
+    border: 0;
+    font-size: 0.875rem;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
