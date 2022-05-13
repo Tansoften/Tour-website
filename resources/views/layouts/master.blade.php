@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Njere Tours and Safaris</title>
 
+    <link rel="stylesheet" href="{{ asset('global css/global.css') }}">
      <!-- Bootstrap CSS -->
      <link href="{{asset('bootstrap-5/css/bootstrap.min.css')}}" rel="stylesheet">
 
@@ -16,7 +17,7 @@
                 0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
          
                 <!-- Ec=xternal css -->
-                <link rel="stylesheet" href="{{ asset('global css/global.css') }}">
+                
 
 </head>
 
@@ -36,10 +37,10 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/home">Home</a>
+                <a class="nav-link text-light" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="/places"> Places </a>
+                <a class="nav-link text-light" href="/places"> Places </a>
               </li>
             </ul>
           </div>
@@ -56,6 +57,7 @@
 
 <script>
     const activePage= window.location.pathname;
+    console.log(activePage)
     const navLinks = document.querySelectorAll('nav li a').
          forEach(link => {
         if(link.href.includes(`${activePage}`)){

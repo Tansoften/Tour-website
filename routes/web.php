@@ -13,10 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('home');
 });
 
 Route::get('/places', function () {
     return view('places');
+});
+
+Route::fallback(function(){
+    return view('not_found');
 });

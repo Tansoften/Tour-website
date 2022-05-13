@@ -16,21 +16,21 @@
                         <h5 class="fw-bold text-dark">Contacts</h5>
                         <ul class="">
                            <li class="mb-2 me-4">
-                                <a class="text-decoration-none fw-bold" href="" style=" color: #3E6551;">
+                                <a class="text-decoration-none fw-bold" href="mailto:stanley97tz@icloud.com" style=" color: #3E6551;">
                                     <img   src="{{asset('storage/asset/envelope-solid.svg')}}" alt="email" style="width: 25px;">
                                     stanley97tz@icloud.com
                                 </a>
                             </li>
 
                             <li class="mb-2">
-                                <a class="text-decoration-none fw-bold" href="" style=" color: #3E6551;">
+                                <span class="text-decoration-none fw-bold" style=" color: #3E6551;">
                                     <img src="{{asset('storage/asset/phone-solid.svg')}}" alt="phone" style="width: 25px;">
                                     +255 656 205 832
-                                </a>
+                                </span>
                             </li>
 
                             <li class="mb-2">
-                                <a class="text-decoration-none fw-bold" href="" style=" color: #3E6551;">
+                                <a class="text-decoration-none fw-bold" href="https://wa.me/+255656205832/" style=" color: #3E6551;">
                                     <img   src="{{asset('storage/asset/whatsapp-brands.svg')}}" alt="whatsapp" style="width: 25px;">
                                     +255 656 205 832
                                 </a>

@@ -354,7 +354,7 @@
 
     <!-- section for subscription-->
 
-    {{-- <section class="mb-5 pt-5">
+   <!-- <section class="mb-5 pt-5">
         <div class="container">
             <div class="py-5  px-5"style="background-color: rgba(184, 213, 184, 0.3); border-radius:200px 200px 20px 20px;">
                 <div class="row justify-content-center pt-3">
@@ -381,7 +381,7 @@
 
         </div>
     </div>
-    </section> --}}
+    </section>  -->
 
    
 
