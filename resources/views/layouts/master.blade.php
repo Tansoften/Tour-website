@@ -23,9 +23,7 @@
 
 
 <body>
-    <Main class="" style="background-color:"> 
-        {{-- #078E10 --}}
-
+    <Main class="" > 
     <nav class="navbar navbar-expand-lg navbar-light  py-4 d-block fixed-top  backdrop padding-transition"
                 data-navbar-on-scroll="data-navbar-on-scroll" style="background-color:none; background-color: rgba(249, 250, 253, 0); 
                 transition: background-color 0s ease 0s, padding 0.35s ease 0s;">
