@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Njere Tours and Safaris</title>
 
-    <link rel="stylesheet" href="{{ asset('global css/global.css') }}">
+    <link rel="stylesheet" href="{{route('global-css')}}/global.css">
      <!-- Bootstrap CSS -->
-     <link href="{{asset('bootstrap-5/css/bootstrap.min.css')}}" rel="stylesheet">
+     <link href="{{route('bootstrap-5')}}/css/bootstrap.min.css" rel="stylesheet">
 
      <!-- Bootstrap Bundle with Popper -->
-    <script src="{{asset('bootstrap-5/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{route('bootstrap-5')}}/js/bootstrap.bundle.min.js"></script>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;
                 0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -35,10 +35,10 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link text-light" aria-current="page" href="/">Home</a>
+                <a class="nav-link text-light" aria-current="page" href="{{route('home')}}">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="/places"> Places </a>
+                <a class="nav-link text-light" href="{{route('places')}}"> Places </a>
               </li>
             </ul>
           </div>

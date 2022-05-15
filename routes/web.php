@@ -13,16 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('public/storage/asset', function(){})->name('image');
-Route::get('public/resources', function(){})->name('');
+Route::prefix('/')->group(function(){
+    Route::get('storage/asset', function(){})->name('image');
+    Route::get('global-css', function(){})->name('global-css');
+    Route::get('bootstrap-5', function(){})->name('bootstrap-5');
+});
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 
-Route::get('public/places', function () {
+Route::get('places', function () {
     return view('places');
-});
+})->name('places');
 
 Route::fallback(function(){
     return view('not_found');
