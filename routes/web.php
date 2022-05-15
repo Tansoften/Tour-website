@@ -13,17 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::prefix('public/')->group(function(){
-    Route::get('storage/asset', function(){})->name('image');
-    Route::get('global-css', function(){})->name('global-css');
-    Route::get('bootstrap-5', function(){})->name('bootstrap-5');
+Route::prefix('/public')->group(function(){
+    Route::get('/storage/asset', function(){})->name('image');
+    Route::get('/global-css', function(){})->name('global-css');
+    Route::get('/bootstrap-5', function(){})->name('bootstrap-5');
 });
 
 Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('places', function () {
+Route::get('/public/places', function () {
     return view('places');
 })->name('places');
 
