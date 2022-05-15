@@ -17,21 +17,21 @@
                         <ul class="">
                            <li class="mb-2 me-4">
                                 <a class="text-decoration-none fw-bold" href="mailto:stanley97tz@icloud.com" style=" color: #3E6551;">
-                                    <img   src="{{asset('storage/asset/envelope-solid.svg')}}" alt="email" style="width: 25px;">
+                                    <img   src="{{route('image')}}/envelope-solid.svg" alt="email" style="width: 25px;">
                                     stanley97tz@icloud.com
                                 </a>
                             </li>
 
                             <li class="mb-2">
                                 <span class="text-decoration-none fw-bold" style=" color: #3E6551;">
-                                    <img src="{{asset('storage/asset/phone-solid.svg')}}" alt="phone" style="width: 25px;">
+                                    <img src="{{route('image')}}/phone-solid.svg" alt="phone" style="width: 25px;">
                                     +255 656 205 832
                                 </span>
                             </li>
 
                             <li class="mb-2">
                                 <a class="text-decoration-none fw-bold" href="https://wa.me/+255656205832/" style=" color: #3E6551;">
-                                    <img   src="{{asset('storage/asset/whatsapp-brands.svg')}}" alt="whatsapp" style="width: 25px;">
+                                    <img   src="{{route('image')}}/whatsapp-brands.svg" alt="whatsapp" style="width: 25px;">
                                     +255 656 205 832
                                 </a>
                             </li>
@@ -43,11 +43,11 @@
                         <h5 class="fw-bold text-dark">Find us on social Media</h5>
                         <div class="d-flex  mx-4">
                             <a class="text-decoration-none text-dark fw-bold me-2" target="_blank" href="https://www.facebook.com/SHEDRACKSTANLY/">
-                                <img   src="{{asset('storage/asset/facebook-f-brands.svg')}}" alt="facebook" style="width: 18px;">
+                                <img   src="{{route('image')}}/facebook-f-brands.svg" alt="facebook" style="width: 18px;">
                             </a>
 
                             <a class="text-decoration-none text-dark fw-bold ms-4" target="_blank" href="https://www.instagram.com/njere_tours_and_safaris/">
-                                <img   src="{{asset('storage/asset/instagram-brands.svg')}}" alt="Instagram" style="width: 25px;">
+                                <img   src="{{route('image')}}/instagram-brands.svg" alt="Instagram" style="width: 25px;">
                             </a>
 
                             <!-- <a class="text-decoration-none text-dark fw-bold ms-5" href="#">

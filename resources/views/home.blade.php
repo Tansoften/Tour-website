@@ -169,7 +169,7 @@
             <div class="col-lg-3 col-sm-6 " style="margin-bottom: 3rem;">
                 <div class="card service-card shadow-hover border-0 mx-2 rounded-3 text-center align-items-center ">
                     <div class="card-body p-4">
-                        <img class="" src="{{route('image')}}/info.png" width="60" alt="infomation">
+                        <img class="" src="{{route('image')}}/Info.png" width="60" alt="infomation">
                         <h4 class="mb-1" >Information</h4>
                         <p class="p-2" style="font-weight: 500 !important">
                             Travel experience should be shared, it will most
@@ -191,7 +191,7 @@
             <div class="row ">
                 <div class="col-md-4 mb-4">
                     <div class="card rounded-3 border-0 overflow-hidden">
-                        <img class="rounded-3 " style="border-radius: 1.5rem; display:block; vertical-align:middle;" src="{{asset('storage/asset/Chui.jpeg')}}" alt="Chui">
+                        <img class="rounded-3 " style="border-radius: 1.5rem; display:block; vertical-align:middle;" src="{{route('image')}}/Chui.jpeg" alt="Chui">
                         <div class="card-body py-4 px-3 ">
                             <div class="d-flex flex-column flex-lg-row justify-content-between text-secondary mb-3">
                                 <h4 class="fw-bold ">Serengeti</h4>
@@ -217,7 +217,7 @@
 
                 <div class="col-md-4 mb-4">
                     <div class="card rounded-3 border-0 overflow-hidden">
-                        <img class="rounded-3" style="border-radius: 1.5rem;display:block; vertical-align:middle;" src="{{asset('storage/asset/zanzibar.jpg')}}" alt="Zanzibar">
+                        <img class="rounded-3" style="border-radius: 1.5rem;display:block; vertical-align:middle;" src="{{route('image')}}/zanzibar.jpg" alt="Zanzibar">
                         <div class="card-body py-4 px-3 ">
                             <div class="d-flex flex-column flex-lg-row justify-content-between text-secondary mb-3">
                                 <h4 class="fw-bold ">Zanzibar</h4>
@@ -243,7 +243,7 @@
 
                 <div class="col-md-4 mb-4">
                     <div class="card rounded-3 border-0 overflow-hidden">
-                        <img class="rounded-3" style="border-radius: 1.5rem;display:block; vertical-align:middle;" src="{{asset('storage/asset/Kilimanjaro.jpeg')}}" alt="Kilimanjaro">
+                        <img class="rounded-3" style="border-radius: 1.5rem;display:block; vertical-align:middle;" src="{{route('image')}}/Kilimanjaro.jpeg" alt="Kilimanjaro">
                         <div class="card-body py-4 px-3 ">
                             <div class="d-flex flex-column flex-lg-row justify-content-between text-secondary mb-3">
                                 <h4 class="fw-bold ">Mt Kilimanjaro</h4>
@@ -326,7 +326,7 @@
 
                 <div class="col-lg-3 col-md-4 d-flex justify-content-center align-items-start  mb-4">
                     <div class="card rounded-3 border-0 overflow-hidden ">
-                        <img class="rounded-3" style="border-radius: 1.5rem;display:block; vertical-align:middle;" src="{{asset('storage/asset/Kilimanjaro.jpeg')}}" alt="Kilimanjaro">
+                        <img class="rounded-3" style="border-radius: 1.5rem;display:block; vertical-align:middle;" src="{{route('image')}}/Kilimanjaro.jpeg" alt="Kilimanjaro">
                         <div class="card-body py-3 px-3 ">
                             <div class=" text-secondary mb-3">
                                 <h6 class="fw-bold ">  Trip Mt Kilimanjaro</h6>
