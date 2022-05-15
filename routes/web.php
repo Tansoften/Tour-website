@@ -14,12 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('public/storage/asset', function(){})->name('image');
+Route::get('public/resources', function(){})->name('');
 
 Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/places', function () {
+Route::get('public/places', function () {
     return view('places');
 });
 
