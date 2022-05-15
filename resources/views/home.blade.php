@@ -3,13 +3,13 @@
     
 <!-- Welcome section-->
  <section class="" style="padding-top: 7rem; padding-bottom:3rem;">
-    <div> <img class="bg-holder" style="background-image: url(storage/asset/bg1.svg)">
+    <div> <img class="bg-holder" style="background-image: url({{route('image')}}/bg1.svg)">
         
     </div>
   <div class="container">
       <div class="row align-self-center ">
           <div class="col-md-5 ps-5 col-lg-5 text-start">
-            <img class="" src="{{asset('storage/asset/Traveller.png')}}" width="240" alt="Traveller">
+            <img class="" src="{{route('image')}}/Traveller.png" width="240" alt="Traveller">
                
           </div>
           <div class="col-md-7 col-lg-6   text-md-start">
@@ -23,7 +23,6 @@
                      and people have to offer.
                     For less dollars but more value and memorable safaris, 
                     travel with us and see the difference.</P>
-                   
           </div>
       </div>
   </div>
@@ -33,15 +32,14 @@
         <div class="col-md-5 col-lg-6 order-3 text-end">
             <div class="row">           
                  <div class=" d-flex mt-3"> 
-                     <div class="card rounded-4"><img class="img-fluid rounded-4" src="{{asset('storage/asset/Pundamilia.jpeg')}}" width="" alt="hotel"></div>
-                     <div class="card rounded-4"><img class="img-fluid rounded-4" src="{{asset('storage/asset/lion.jpeg')}}" width="" alt="hotel"></div>   
+                     <div class="card rounded-4"><img class="img-fluid rounded-4" src="{{route('image')}}/Pundamilia.jpeg" width="" alt="hotel"></div>
+                     <div class="card rounded-4"><img class="img-fluid rounded-4" src="{{route('image')}}/lion.jpeg" width="" alt="hotel"></div>   
                  </div>
                  <div class="d-flex mt-2"> 
-                    <div class="card rounded-4"><img class="img-fluid rounded-4" src="{{asset('storage/asset/maasai2.jpeg')}}" width="" alt="hotel"></div>
-                    <div class="card rounded-4"><img class="img-fluid rounded-4" src="{{asset('storage/asset/maasai kids.jpeg')}}" width="" alt="hotel"></div>    
+                    <div class="card rounded-4"><img class="img-fluid rounded-4" src="{{route('image')}}/maasai2.jpeg" width="" alt="hotel"></div>
+                    <div class="card rounded-4"><img class="img-fluid rounded-4" src="{{route('image')}}/maasai kids.jpeg" width="" alt="hotel"></div>    
                 </div>
-                 
-                </div>           
+            </div>           
         </div>
         <div class="col-md-7 col-lg-6  text-md-start">
            <h1 class="fw-bold font">
@@ -71,7 +69,7 @@
             <div class="col-lg-3 col-sm-6 " style="margin-bottom: 3rem;">
                 <div class="card service-card shadow-hover border-0 mx-2 rounded-3 text-center align-items-center ">
                     <div class="card-body p-4 ">
-                        <img class="" src="{{asset('storage/asset/kisspng-hiking.png')}}" width="75" alt="hiking">
+                        <img class="" src="{{route('image')}}/kisspng-hiking.png" width="75" alt="hiking">
                         <h4 class="mb-1" >Hiking</h4>
                         <p class="p-2" style="font-weight: 500 !important">
                             Tanzanian National Parks feature the richest 
@@ -85,7 +83,7 @@
             <div class="col-lg-3 col-sm-6 " style="margin-bottom: 3rem;">
                 <div class="card service-card shadow-hover border-0 mx-2 rounded-3 text-center align-items-center ">
                     <div class="card-body p-4">
-                        <img class="" src="{{asset('storage/asset/wildlife.png')}}" width="75" alt="wildelife">
+                        <img class="" src="{{route('image')}}/wildlife.png" width="75" alt="wildelife">
                         <h4 class="mb-1" >Wildlife</h4>
                         <p class="p-2" style="font-weight: 500 !important">
                             Exploring the wilderness in national parks means truly
@@ -99,7 +97,7 @@
             <div class="col-lg-3 col-sm-6 " style="margin-bottom: 3rem;">
                 <div class="card service-card shadow-hover border-0 mx-2 rounded-3 text-center align-items-center ">
                     <div class="card-body p-4">
-                        <img class="" src="{{asset('storage/asset/guide.png')}}" width="60" alt="guider">
+                        <img class="" src="{{route('image')}}/guide.png" width="60" alt="guider">
                         <h4 class="mb-1" >Private Guide</h4>                    
                         <p class="p-2" style="font-weight: 500 !important">
                             Our safari guides know every nook and cranny of 
@@ -113,7 +111,7 @@
             <div class="col-lg-3 col-sm-6 " style="margin-bottom: 3rem;">
                 <div class="card service-card shadow-hover border-0 mx-2 rounded-3 text-center align-items-center ">
                     <div class="card-body p-4">
-                        <img class="" src="{{asset('storage/asset/hotel.png')}}" width="65" alt="hotel">
+                        <img class="" src="{{route('image')}}/hotel.png" width="65" alt="hotel">
                         <h4 class="mb-1" >Hospitality Partner</h4>
                         <p class="p-2" style="font-weight: 500 !important">
                             Our safari itineraries feature only the best hotels
@@ -130,7 +128,7 @@
          <div class="col-lg-3 col-sm-6 " style="margin-bottom: 3rem;">
                 <div class="card service-card shadow-hover border-0 mx-2 rounded-3 text-center align-items-center ">
                     <div class="card-body p-4">
-                        <img class="" src="{{asset('storage/asset/vacation.png')}}" width="65" alt="vacation">
+                        <img class="" src="{{route('image')}}/vacation.png" width="65" alt="vacation">
                         <h4 class="mb-1" >Vacation</h4>
                         <p class="p-2" style="font-weight: 500 !important">
                             You will spend time with nature. We lead over 300
@@ -144,7 +142,7 @@
             <div class="col-lg-3 col-sm-6 " style="margin-bottom: 3rem;">
                 <div class="card service-card shadow-hover border-0 mx-2 rounded-3 text-center align-items-center ">
                     <div class="card-body p-4">
-                        <img class="" src="{{asset('storage/asset/ballon.png')}}" width="50" alt="Air bollon">
+                        <img class="" src="{{route('image')}}/ballon.png" width="50" alt="Air bollon">
                         <h4 class="mb-1" >Ballons</h4>
                         <p class="p-2" style="font-weight: 500 !important">
                             A bird’s-eye view of the savannah is truly a sight
@@ -158,7 +156,7 @@
             <div class="col-lg-3 col-sm-6 " style="margin-bottom: 3rem;">
                 <div class="card service-card shadow-hover border-0 mx-2 rounded-3 text-center align-items-center ">
                     <div class="card-body p-4">
-                        <img class="" src="{{asset('storage/asset/air ride.png')}}" width="60" alt="plane">
+                        <img class="" src="{{route('image')}}/air ride.png" width="60" alt="plane">
                         <h4 class="mb-1" >Air Ride</h4>
                         <p class="p-2" style="font-weight: 500 !important">
                             Getting to the heartland of the National Parks and 
@@ -171,7 +169,7 @@
             <div class="col-lg-3 col-sm-6 " style="margin-bottom: 3rem;">
                 <div class="card service-card shadow-hover border-0 mx-2 rounded-3 text-center align-items-center ">
                     <div class="card-body p-4">
-                        <img class="" src="{{asset('storage/asset/info.png')}}" width="60" alt="infomation">
+                        <img class="" src="{{route('image')}}/info.png" width="60" alt="infomation">
                         <h4 class="mb-1" >Information</h4>
                         <p class="p-2" style="font-weight: 500 !important">
                             Travel experience should be shared, it will most
@@ -200,17 +198,17 @@
                                 <span class="fs-5">$2.9k</span>
                             </div>
                             <div class="d-flex align-items-center">
-                                <img src="{{asset('storage/asset/calender.png')}}" width="40" style="margin-right: 14px" alt="place">                              
+                                <img src="{{route('image')}}/calender.png" width="40" style="margin-right: 14px" alt="place">                              
                                 <span>8 Days Trip</span>
                             </div>
 
                             <div class="d-flex align-items-center">
-                                <img src="{{asset('storage/asset/location.png')}}" width="40" style="margin-right: 14px" alt="place">
+                                <img src="{{route('image')}}/location.png" width="40" style="margin-right: 14px" alt="place">
                                 <span>Mara,Tanzania</span>
                             </div>
 
                             <div class="d-flex align-items-center">
-                                <img src="{{asset('storage/asset/task.png')}}" width="40" style="margin-right: 14px" alt="place">
+                                <img src="{{route('image')}}/task.png" width="40" style="margin-right: 14px" alt="place">
                                 <span>12 Activities</span>
                             </div> 
                         </div>
@@ -226,17 +224,17 @@
                                 <span class="fs-5">$2.1k</span>
                             </div>
                             <div class="d-flex align-items-center">
-                                <img src="{{asset('storage/asset/calender.png')}}" width="40" style="margin-right: 14px" alt="place">
+                                <img src="{{route('image')}}/calender.png" width="40" style="margin-right: 14px" alt="place">
                                 <span>6 Days Trip</span>
                             </div>
 
                             <div class="d-flex align-items-center">
-                                <img src="{{asset('storage/asset/location.png')}}" width="40" style="margin-right: 14px" alt="place">
+                                <img src="{{route('image')}}/location.png" width="40" style="margin-right: 14px" alt="place">
                                 <span>Arusha,Tanzania</span>
                             </div>
 
                             <div class="d-flex align-items-center">
-                                <img src="{{asset('storage/asset/task.png')}}" width="40" style="margin-right: 14px" alt="place">
+                                <img src="{{route('image')}}/task.png" width="40" style="margin-right: 14px" alt="place">
                                 <span>17 Activities</span>
                             </div> 
                         </div>
@@ -252,17 +250,17 @@
                                 <span class="fs-5">$2.41k</span>
                             </div>
                             <div class="d-flex align-items-center">
-                                <img src="{{asset('storage/asset/calender.png')}}" width="40" style="margin-right: 14px" alt="place">
+                                <img src="{{route('image')}}/calender.png" width="40" style="margin-right: 14px" alt="place">
                                 <span>7 Days Trip</span>
                             </div>
 
                             <div class="d-flex align-items-center">
-                                <img src="{{asset('storage/asset/location.png')}}" width="40" style="margin-right: 14px" alt="place">
+                                <img src="{{route('image')}}/location.png" width="40" style="margin-right: 14px" alt="place">
                                 <span>Kilimanjaro,Tanzania</span>
                             </div>
 
                             <div class="d-flex align-items-center">
-                                <img src="{{asset('storage/asset/task.png')}}" width="40" style="margin-right: 14px" alt="place">
+                                <img src="{{route('image')}}/task.png" width="40" style="margin-right: 14px" alt="place">
                                 <span>10 Activities</span>
                             </div> 
                         </div>                    
@@ -289,7 +287,7 @@
                 <div class="col-lg-6" style="margin-right: 15rem;">
                     <div class="align-items-start d-flex">
                         <div class="p-3 mx-2" style="border-radius: 14px; width:60px; height:60px; background-color:#d8a10a;">
-                            <img src="{{asset('storage/asset/sqare.png')}}" width="30" style="margin-right: 13px" alt="payment">                       
+                            <img src="{{route('image')}}/sqare.png" width="30" style="margin-right: 13px" alt="payment">                       
                         </div>
                         <div class="pt-1">
                             <h6 class="fw-bold">Pick a Place</h6>
@@ -300,7 +298,7 @@
 
                     <div class="align-items-start d-flex">
                         <div class="p-3 mx-2" style="border-radius: 14px; width:60px; height:60px; background-color:#055f94;">
-                            <img src="{{asset('storage/asset/payment.png')}}" width="30" style="margin-right: 14px" alt="payment">
+                            <img src="{{route('image')}}/payment.png" width="30" style="margin-right: 14px" alt="payment">
                        
                         </div>
                         <div class="pt-1">
@@ -312,7 +310,7 @@
 
                     <div class="align-items-start d-flex">
                         <div class="p-3 mx-2" style="border-radius: 14px; width:60px; height:60px; background-color:#ac4002;">
-                            <img src="{{asset('storage/asset/car.png')}}" width="30" style="margin-right: 14px" alt="transport">                       
+                            <img src="{{route('image')}}/car.png" width="30" style="margin-right: 14px" alt="transport">                       
                         </div>
                         <div class="pt-1">
                             <h6 class="fw-bold">Arrive to the Airport on selected Date</h6>

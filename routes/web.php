@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('public/storage/asset', function(){})->name('image');
+
 Route::get('/', function () {
     return view('home');
 });

@@ -3,7 +3,7 @@
 
 <!-- Headings and the top most places section-->
 <section style="padding-top: 7rem; padding-bottom:1rem;">
-    <div><img class="bg-holder" style="background-image: url(storage/asset/bg2.svg)">
+    <div><img class="bg-holder" style="background-image: url({{route('image')}}/bg2.svg)">
         {{-- <img class="img-fluid bg-holder" src="{{asset('storage/asset/bg2.png')}}" width="" alt="hotel"> --}}
     </div>
     <div class="container">
@@ -17,7 +17,7 @@
         <div class="row ">
             <div class="col-md-4 mb-4">
                 <div class="card rounded-4 overflow-hidden">
-                    <img class="rounded-4" style="border-radius: 1.5rem; display:block; vertical-align:middle;" src="{{asset('storage/asset/Chui.jpeg')}}" alt="Serengeti">
+                    <img class="rounded-4" style="border-radius: 1.5rem; display:block; vertical-align:middle;" src="{{route('image')}}/Chui.jpeg" alt="Serengeti">
                     <div class="card-body py-4 px-3 ">
                         <div class="d-flex flex-column flex-lg-row justify-content-between text-secondary mb-3">
                             <h4 class="fw-bold ">Serengeti</h4>
@@ -44,7 +44,7 @@
 
             <div class="col-md-4 mb-4">
                 <div class="card rounded-4 overflow-hidden">
-                    <img class="rounded-4" style="border-radius: 1.5rem;display:block; vertical-align:middle;" src="{{asset('storage/asset/zanzibar.jpg')}}" alt="Zanzibar">
+                    <img class="rounded-4" style="border-radius: 1.5rem;display:block; vertical-align:middle;" src="{{route('image')}}/zanzibar.jpg" alt="Zanzibar">
                     <div class="card-body py-4 px-3 ">
                         <div class="d-flex flex-column flex-lg-row justify-content-between text-secondary mb-3">
                             <h4 class="fw-bold ">Zanzibar</h4>
@@ -70,7 +70,7 @@
 
             <div class="col-md-4 mb-4">
                 <div class="card rounded-4 overflow-hidden">
-                    <img class="rounded-4" style="border-radius: 1.5rem;display:block; vertical-align:middle;" src="{{asset('storage/asset/Kilimanjaro.jpeg')}}" alt="Mt Kilimanjaro">
+                    <img class="rounded-4" style="border-radius: 1.5rem;display:block; vertical-align:middle;" src="{{route('image')}}/Kilimanjaro.jpeg" alt="Mt Kilimanjaro">
                     <div class="card-body py-4 px-3 ">
                         <div class="d-flex flex-column flex-lg-row justify-content-between text-secondary mb-3">
                             <h4 class="fw-bold ">Mt Kilimanjaro</h4>
@@ -105,7 +105,7 @@
         <div class="card rounded-4 mt-5">       
             <div class="row ">
                 <div class="col-lg-4">
-                    <img class="img-fluid rounded-4" src="{{asset('storage/asset/mount-meru.jpg')}}" alt="Mount-Meru">
+                    <img class="img-fluid rounded-4" src="{{route('image')}}/mount-meru.jpg" alt="Mount-Meru">
                 </div>
                 
                     <div class=" col-lg-8 align-items-center text-center pe-3">
@@ -135,7 +135,7 @@
         <div class="card rounded-4 mt-3">       
             <div class="row ">
                 <div class="col-lg-4">
-                    <img class="img-fluid rounded-4" src="{{asset('storage/asset/hyena.jpeg')}}" alt="Selous Game Reserve">
+                    <img class="img-fluid rounded-4" src="{{route('image')}}/hyena.jpeg" alt="Selous Game Reserve">
                 </div>
                 
                     <div class=" col-lg-8 align-items-center text-center pe-3">
@@ -169,7 +169,7 @@
         <div class="card rounded-4 mt-3">       
             <div class="row ">
                 <div class="col-lg-4">
-                    <img class="img-fluid rounded-4" src="{{asset('storage/asset/Tembo.jpeg')}}" alt="Tarangire">
+                    <img class="img-fluid rounded-4" src="{{route('image')}}/Tembo.jpeg" alt="Tarangire">
                 </div>
                 
                     <div class=" col-lg-8 align-items-center text-center pe-3">
@@ -201,7 +201,7 @@
         <div class="card rounded-4 mt-3">       
             <div class="row ">
                 <div class="col-lg-4">
-                    <img class="img-fluid rounded-4" src="{{asset('storage/asset/Pundamilia2.jpeg')}}" alt="Ngorongoro">
+                    <img class="img-fluid rounded-4" src="{{route('image')}}/Pundamilia2.jpeg" alt="Ngorongoro">
                 </div>
                 
                     <div class=" col-lg-8 align-items-center text-center pe-3">
@@ -233,7 +233,7 @@
         <div class="card rounded-4 mt-3">       
             <div class="row ">
                 <div class="col-lg-4">
-                    <img class="img-fluid rounded-4" src="{{asset('storage/asset/Manyara.jpeg')}}" alt="Manyara">
+                    <img class="img-fluid rounded-4" src="{{route('image')}}/Manyara.jpeg" alt="Manyara">
                 </div>
                 
                     <div class=" col-lg-8 align-items-center text-center pe-3">
@@ -262,7 +262,7 @@
         <div class="card rounded-4 mt-3">       
             <div class="row ">
                 <div class="col-lg-4">
-                    <img class="img-fluid rounded-4" src="{{asset('storage/asset/TwoLion.jpeg')}}" alt="Ruaha">
+                    <img class="img-fluid rounded-4" src="{{route('image')}}/TwoLion.jpeg" alt="Ruaha">
                 </div>
                 
                     <div class=" col-lg-8 align-items-center text-center pe-3">

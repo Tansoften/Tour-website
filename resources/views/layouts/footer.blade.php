@@ -42,11 +42,11 @@
                 <div class="col-lg-4 col-sm-6 mb-4 ps-5">
                         <h5 class="fw-bold text-dark">Find us on social Media</h5>
                         <div class="d-flex  mx-4">
-                            <a class="text-decoration-none text-dark fw-bold me-2" href="https://www.facebook.com/SHEDRACKSTANLY/">
+                            <a class="text-decoration-none text-dark fw-bold me-2" target="_blank" href="https://www.facebook.com/SHEDRACKSTANLY/">
                                 <img   src="{{asset('storage/asset/facebook-f-brands.svg')}}" alt="facebook" style="width: 18px;">
                             </a>
 
-                            <a class="text-decoration-none text-dark fw-bold ms-4" href="https://www.instagram.com/p/CdVuT2XqD86/?igshid=YmMyMTA2M2Y=">
+                            <a class="text-decoration-none text-dark fw-bold ms-4" target="_blank" href="https://www.instagram.com/njere_tours_and_safaris/">
                                 <img   src="{{asset('storage/asset/instagram-brands.svg')}}" alt="Instagram" style="width: 25px;">
                             </a>
 
