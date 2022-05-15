@@ -23,7 +23,7 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('/public/places', function () {
+Route::get('/places', function () {
     return view('places');
 })->name('places');
 
