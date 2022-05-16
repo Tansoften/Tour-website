@@ -83,7 +83,7 @@
             <div class="col-lg-4" style="margin-bottom: 3rem;">
                 <div class="card service-card shadow-hover border-0 mx-2 rounded-3 text-center align-items-center ">
                     <div class="card-body p-4">
-                        <img class="img-fluid rounded-4" src="{{route('image')}}/cheetah.jpeg" width="100%" alt="wildelife">
+                        <img class="img-fluid rounded-4" src="{{route('image')}}/Cheetah.jpeg" width="100%" alt="wildelife">
                         <h4 class="mb-1" >Wildlife</h4>
                         <p class="p-2" style="font-weight: 500 !important">
                             Exploring the wilderness in national parks means truly
