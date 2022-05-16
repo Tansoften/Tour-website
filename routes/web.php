@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::prefix('/public')->group(function(){
+Route::prefix('/')->group(function(){
     Route::get('/storage/asset', function(){})->name('image');
     Route::get('/global-css', function(){})->name('global-css');
     Route::get('/bootstrap-5', function(){})->name('bootstrap-5');

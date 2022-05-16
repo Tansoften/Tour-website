@@ -7,7 +7,7 @@
                 <div class="col-lg-4 col-sm-6 " >
                     
                         <h4 class="fw-bold text-start" style="color: #024006;">Njere Tours and Safaris</h4>
-                           <p class="fw-bold text-start">Enjoy your safaris safely and experience different with us</p>                              
+                           <p class="fw-bold text-start">Enjoy your safaris safely and experience the difference with us</p>                              
                     
                 </div>
 
@@ -61,5 +61,5 @@
     </div>
 </section>
 <div class="w-100  bg-dark text-secondary  text-center py-3">
-    <p class="mb-0">Copyright &copy 2022. Njere Tours and Safaris. All Rights Reserved</p>   
+    <p class="mb-0">Copyright &copy; @php echo Date('Y');@endphp. Njere Tours and Safaris. All Rights Reserved</p>   
 </div>

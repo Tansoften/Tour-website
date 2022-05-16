@@ -3,18 +3,18 @@
     
 <!-- Welcome section-->
  <section class="" style="padding-top: 7rem; padding-bottom:3rem;">
-    <div> <img class="bg-holder" style="background-image: url({{route('image')}}/bg1.svg)">
+    <div> <img class="bg-holder img-fluid" style="background-image: url({{route('image')}}/bg1.svg)">
         
     </div>
   <div class="container">
       <div class="row align-self-center ">
           <div class="col-md-5 ps-5 col-lg-5 text-start">
-            <img class="" src="{{route('image')}}/Traveller.png" width="240" alt="Traveller">
+            <img class="img-fluid rounded-4" src="{{route('image')}}/stretching-lion.jpeg" width="100%" heigt="100%" alt="Traveller">
                
           </div>
           <div class="col-md-7 col-lg-6   text-md-start">
              <h1 class="fw-bold font">
-                 "Travel and Live to the fullest of your life <br> with us"
+                 "Travel and Live to the fullest of your life <br> with Njere Tours and Safaris"
                 </h1>
                 <h4 class="text-danger mb-3">Let your eyes wonder with different experience and best places in our home land Tanzania</h4>
                 <P class="mb-4" style="font-weight: 500 !important">We introduce you to the wonders and unique beauty in way that only a small,
@@ -66,10 +66,10 @@
 
         <div class="row">
 
-            <div class="col-lg-3 col-sm-6 " style="margin-bottom: 3rem;">
+            <div class="col-lg-4" style="margin-bottom: 3rem;">
                 <div class="card service-card shadow-hover border-0 mx-2 rounded-3 text-center align-items-center ">
                     <div class="card-body p-4 ">
-                        <img class="" src="{{route('image')}}/kisspng-hiking.png" width="75" alt="hiking">
+                        <img class="img-fluid rounded-4" src="{{route('image')}}/hiking.jpeg" width="100%" alt="hiking">
                         <h4 class="mb-1" >Hiking</h4>
                         <p class="p-2" style="font-weight: 500 !important">
                             Tanzanian National Parks feature the richest 
@@ -80,10 +80,10 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 " style="margin-bottom: 3rem;">
+            <div class="col-lg-4" style="margin-bottom: 3rem;">
                 <div class="card service-card shadow-hover border-0 mx-2 rounded-3 text-center align-items-center ">
                     <div class="card-body p-4">
-                        <img class="" src="{{route('image')}}/wildlife.png" width="75" alt="wildelife">
+                        <img class="img-fluid rounded-4" src="{{route('image')}}/cheetah.jpeg" width="100%" alt="wildelife">
                         <h4 class="mb-1" >Wildlife</h4>
                         <p class="p-2" style="font-weight: 500 !important">
                             Exploring the wilderness in national parks means truly
@@ -94,11 +94,11 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 " style="margin-bottom: 3rem;">
+            <div class="col-lg-4" style="margin-bottom: 3rem;">
                 <div class="card service-card shadow-hover border-0 mx-2 rounded-3 text-center align-items-center ">
                     <div class="card-body p-4">
-                        <img class="" src="{{route('image')}}/guide.png" width="60" alt="guider">
-                        <h4 class="mb-1" >Private Guide</h4>                    
+                        <img class="img-fluid rounded-4" src="{{route('image')}}/stanley.jpeg" width="100%" alt="guider">
+                        <h4 class="mb-1" >Meet the Guides</h4>                    
                         <p class="p-2" style="font-weight: 500 !important">
                             Our safari guides know every nook and cranny of 
                             the National Parks.They will lead  your way to the
@@ -108,7 +108,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 " style="margin-bottom: 3rem;">
+            <!-- <div class="col-lg-3 col-sm-6 " style="margin-bottom: 3rem;">
                 <div class="card service-card shadow-hover border-0 mx-2 rounded-3 text-center align-items-center ">
                     <div class="card-body p-4">
                         <img class="" src="{{route('image')}}/hotel.png" width="65" alt="hotel">
@@ -119,66 +119,68 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
-    </div>
 
-    <div class="row rows ">
+        <div class="row rows ">
 
-         <div class="col-lg-3 col-sm-6 " style="margin-bottom: 3rem;">
+            <div class="col-lg-4" style="margin-bottom: 3rem;">
                 <div class="card service-card shadow-hover border-0 mx-2 rounded-3 text-center align-items-center ">
                     <div class="card-body p-4">
-                        <img class="" src="{{route('image')}}/vacation.png" width="65" alt="vacation">
-                        <h4 class="mb-1" >Vacation</h4>
+                        <img class="img-fluid rounded-4" src="{{route('image')}}/stanley-incar.jpeg" width="100%" alt="vacation">
+                        <h4 class="mb-1" >Affordable Transport</h4>
                         <p class="p-2" style="font-weight: 500 !important">
-                            You will spend time with nature. We lead over 300
-                             expeditions to the Roof of Africa every year. 
-                             Your safety and comfort are our priority
+                            You will be provided with affordable transport
+                            for your adventure, a great and comforting
+                            vehingle accomodating enough number.
                         </p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 " style="margin-bottom: 3rem;">
+            <div class="col-lg-4 col-sm-6 " style="margin-bottom: 3rem;">
                 <div class="card service-card shadow-hover border-0 mx-2 rounded-3 text-center align-items-center ">
                     <div class="card-body p-4">
-                        <img class="" src="{{route('image')}}/ballon.png" width="50" alt="Air bollon">
-                        <h4 class="mb-1" >Ballons</h4>
+                        <img class="img-fluid rounded-4" src="{{route('image')}}/baloon.jpeg" width="100%" alt="Air bollon">
+                        <h4 class="mb-1" >Baloons</h4>
                         <p class="p-2" style="font-weight: 500 !important">
                             A bird’s-eye view of the savannah is truly a sight
-                             to behold.Captivating scenic vistas and lifetime 
-                             memories guaranteed!.
+                            to behold.Captivating scenic vistas and lifetime 
+                            memories guaranteed!.
                         </p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 " style="margin-bottom: 3rem;">
+            <div class="col-lg-4 col-sm-6 " style="margin-bottom: 3rem;">
                 <div class="card service-card shadow-hover border-0 mx-2 rounded-3 text-center align-items-center ">
                     <div class="card-body p-4">
-                        <img class="" src="{{route('image')}}/air ride.png" width="60" alt="plane">
-                        <h4 class="mb-1" >Air Ride</h4>
+                        <img class="img-fluid rounded-4" src="{{route('image')}}/stanley-orphanage.jpeg" width="100%" alt="plane">
+                        <h4 class="mb-1" >Giving Back to Community</h4>
                         <p class="p-2" style="font-weight: 500 !important">
-                            Getting to the heartland of the National Parks and 
-                            sunny beaches of Zanzibar has never been so fast and comfortable.
+                            The first project we've got involved with is the
+                            provisional support to the orphanage center at Maji ya Chai. 
                         </p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 " style="margin-bottom: 3rem;">
+            <!-- <div class="col-lg-4 col-sm-6 " style="margin-bottom: 3rem;">
                 <div class="card service-card shadow-hover border-0 mx-2 rounded-3 text-center align-items-center ">
                     <div class="card-body p-4">
                         <img class="" src="{{route('image')}}/Info.png" width="60" alt="infomation">
                         <h4 class="mb-1" >Information</h4>
                         <p class="p-2" style="font-weight: 500 !important">
                             Travel experience should be shared, it will most
-                             fulfilled when you do it with your Tour guide.
+                            fulfilled when you do it with your Tour guide.
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> -->
+        </div>
     </div>
+
+    
 </section>
 
 <!--section for top selling Places-->
@@ -319,7 +321,7 @@
                         </div>
                     </div>
                     <div class="text-center mt-5 ms-5">
-                        <h4 class="text-danger">Your Done with steps, Now Enjoy your Trip Safely</h4>
+                        <h4 class="text-danger">You're Done with the steps, Now Enjoy your Trip Safely</h4>
                     </div>
 
                 </div>
