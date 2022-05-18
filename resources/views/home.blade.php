@@ -132,7 +132,7 @@
                         <p class="p-2" style="font-weight: 500 !important">
                             You will be provided with affordable transport
                             for your adventure, a great and comforting
-                            vehingle accomodating enough number.
+                            vehicle accomodating enough number.
                         </p>
                     </div>
                 </div>
